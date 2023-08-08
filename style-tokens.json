@@ -6,6 +6,10 @@
           "value": "#a78bfa",
           "type": "color"
         },
+        "500": {
+          "value": "#8b5cf6",
+          "type": "color"
+        },
         "600": {
           "value": "#7c3aed",
           "type": "color"
@@ -43,11 +47,11 @@
           "type": "color"
         },
         "100": {
-          "value": "#f1f5f9",
+          "value": "#edf2f7",
           "type": "color"
         },
         "200": {
-          "value": "#e5e7eb",
+          "value": "#e2e8f0",
           "type": "color"
         },
         "300": {
@@ -110,6 +114,24 @@
           "value": "#15803d",
           "type": "color"
         }
+      },
+      "fill": {
+        "1": {
+          "value": "rgba(97,109,143,0.05)",
+          "type": "color"
+        },
+        "2": {
+          "value": "rgba(97,109,143,0.1)",
+          "type": "color"
+        },
+        "3": {
+          "value": "rgba(97,109,143,0.15)",
+          "type": "color"
+        },
+        "4": {
+          "value": "rgba(97,109,143,0.2)",
+          "type": "color"
+        }
       }
     }
   },
@@ -134,6 +156,10 @@
         },
         "brand": {
           "value": "{color.brand.800}",
+          "type": "color"
+        },
+        "extend": {
+          "value": "{color.other.extend}",
           "type": "color"
         }
       },
@@ -163,6 +189,14 @@
         "input": {
           "value": "#",
           "type": "color"
+        },
+        "message-in": {
+          "value": "{color.fill.1}",
+          "type": "color"
+        },
+        "feedback-alert": {
+          "value": "{color.fill.2}",
+          "type": "color"
         }
       },
       "button": {
@@ -172,11 +206,11 @@
             "type": "color"
           },
           "bg-hover": {
-            "value": "{color.brand.400}",
+            "value": "{color.brand.500}",
             "type": "color"
           },
           "bg-active": {
-            "value": "{color.brand.600}",
+            "value": "{color.brand.400}",
             "type": "color"
           },
           "label": {
@@ -194,11 +228,11 @@
             "type": "color"
           },
           "bg-hover": {
-            "value": "{color.gray.200}",
+            "value": "{color.fill.2}",
             "type": "color"
           },
           "bg-active": {
-            "value": "{color.gray.300}",
+            "value": "{color.fill.3}",
             "type": "color"
           },
           "label": {
@@ -220,11 +254,15 @@
             "type": "color"
           },
           "bg-hover": {
-            "value": "{color.gray.200}",
+            "value": "{color.fill.2}",
+            "type": "color"
+          },
+          "bg-active": {
+            "value": "{color.fill.3}",
             "type": "color"
           },
           "border": {
-            "value": "{color.gray.300}",
+            "value": "{color.fill.3}",
             "type": "color"
           },
           "label": {
@@ -261,6 +299,46 @@
             "value": "{color.red.700}",
             "type": "color"
           }
+        }
+      },
+      "border": {
+        "layout": {
+          "value": "{color.fill.3}",
+          "type": "color"
+        }
+      },
+      "input": {
+        "bg": {
+          "value": "{color.other.bg}",
+          "type": "color"
+        },
+        "border": {
+          "value": "{color.fill.3}",
+          "type": "color"
+        },
+        "border-hover": {
+          "value": "{color.fill.4}",
+          "type": "color"
+        },
+        "border-focus": {
+          "value": "{color.brand.500}",
+          "type": "color"
+        },
+        "placeholder": {
+          "value": "{color.text.muted}",
+          "type": "color"
+        },
+        "value": {
+          "value": "{color.text.main}",
+          "type": "color"
+        },
+        "label": {
+          "value": "{color.text.secondary}",
+          "type": "color"
+        },
+        "label-focus": {
+          "value": "{color.text.brand}",
+          "type": "color"
         }
       }
     }
