@@ -199,7 +199,7 @@
           "type": "color"
         },
         "feedback-alert": {
-          "value": "{color.fill.2}",
+          "value": "{color.other.elevation}",
           "type": "color"
         }
       },
