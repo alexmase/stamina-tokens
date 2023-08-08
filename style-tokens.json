@@ -175,6 +175,14 @@
         "brand": {
           "value": "{color.brand.600}",
           "type": "color"
+        },
+        "success": {
+          "value": "{color.green.500}",
+          "type": "color"
+        },
+        "error": {
+          "value": "{color.red.500}",
+          "type": "color"
         }
       },
       "bg": {
